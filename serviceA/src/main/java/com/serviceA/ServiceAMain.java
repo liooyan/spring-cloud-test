@@ -14,6 +14,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class ServiceAMain {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServiceAMain.class,args);
+        SpringApplication.run(ServiceAMain.class,"--spring.cloud.bootstrap.enabled=true");
     }
 }
